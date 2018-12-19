@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link rel="stylesheet" href="Countdown.css">
+
+		<h3> Prescription Date Calculator </h3>
+		<!--Importing the jQuery library-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--Importing the moment.js library-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+		<script src="Countdown.js">
+		</script>
+	</head>
+
+	<body>
+	<form class="container">
+		<!--Patient Name: <input type="text" name="patname"/> </br>-->
+		Collection Date: <input type="longdate" placeholder="DD/MM/YYYY" id="colldate"> </br> </br>
+		<input type="submit" id="submit">
+		<img src="images.png" id="medImage">
+	</form>
+
+	<p id="information"> 
+		Instructions: <br>
+		<ul>
+			<li> <span> To use this widget, input a future date into the text field, and the number of days until that date will be presented when the "submit" button is pressed. </span> </li>
+			<li><span></span></li>
+			<li><span></span></li>
+			<li><span></span></li>
+			<li><span></span></li>
+		</ul>
+	</p>
+	</body>
+</html>

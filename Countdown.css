@@ -1,0 +1,37 @@
+		
+	/** This document contains the CSS that styles the Countdown.html document. **/
+	body
+	{
+		/**background: #D3D3D3;**/
+		text-align: center;
+	}
+
+		.container 
+	{
+		width: 200px;
+		clear: both;
+		margin-left: 42%;
+	}
+
+	img
+	{
+		position: relative;
+		height: 150px;
+		margin-top: -100px;
+		left: 0px;
+		opacity: 0.3;
+		z-index: -1;
+
+	}
+
+	li span
+	{
+		position: relative;
+		left: -5px;
+	}
+
+	.container input 
+	{
+		width: 100%;
+		clear: both;
+	}
